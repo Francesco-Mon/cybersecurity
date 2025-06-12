@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "antiPhishing",
+  "version": "1.1",
+  "description": "Protegge da link sospetti mostrando un overlay personalizzato prima dell'apertura.",
+  "icons": {
+    "48": "icon.png"
+  },
+  "permissions": ["scripting"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["overlay.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["overlay.html", "overlay.css", "overlay.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

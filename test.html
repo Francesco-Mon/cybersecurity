@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Test URL Guardian</title>
+</head>
+<body>
+  <h2>Link normali</h2>
+  <ul>
+    <li><a href="https://example.com">https://example.com</a></li>
+    <li><a href="https://www.google.com">https://www.google.com</a></li>
+  </ul>
+
+  <h2>Link sospetti</h2>
+  <ul>
+    <li><a href="http://192.168.1.1">http://192.168.1.1 (IP HTTP)</a></li>
+    <li><a href="http://bit.ly/3FgXr9">http://bit.ly/3FgXr9 (shortener)</a></li>
+    <li><a href="http://secure-login-example.com">http://secure-login-example.com (keyword \"secure\")</a></li>
+    <li><a href="https://examp1e.com">https://example.com</a></li>
+    <li><a href="http://verylongurl.com/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa">URL molto lungo</a></li>
+  </ul>
+</body>
+</html>

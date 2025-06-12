@@ -1,0 +1,62 @@
+#url-guardian-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.ug-url {
+  word-break: break-all;
+  overflow-wrap: break-word;
+  white-space: normal;
+  display: inline-block;
+  max-width: 90%;
+}
+
+.ug-modal {
+  background: white;
+  border-radius: 12px;
+  padding: 20px 30px;
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+}
+
+.ug-modal h2 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  color: #d8000c;
+}
+
+.ug-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.ug-buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+#ug-proceed {
+  background-color: #4caf50;
+  color: white;
+}
+
+#ug-cancel {
+  background-color: #f44336;
+  color: white;
+}
