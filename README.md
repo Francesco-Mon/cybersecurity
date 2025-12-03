@@ -72,5 +72,5 @@ function levenshtein(a, b) {
 * **Minimal Permissions**: The extension requests only the necessary permissions defined in manifest.json.
 * **Safe Injection**: Uses content scripts securely to monitor DOM interactions without compromising page integrity.
 <p align="center">
-Developed by <a href="https://github.com/Francesco-Mon">Francesco Montecucco</a> - University of Messina
+Developed by <a href="https://github.com/Francesco-Mon">Francesco Montecucco</a> - University of Messina 
 </p>
